@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.11/dist/sweetalert2.min.css">
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Novedades </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <center><h4>REGISTRAR NOVEDADES</h4></center>
+    <br>
+    <div class="container">
+        <div class="row">
+            <form class="col s12" id="formRegistro">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="nombre" type="text" class="validate">
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="descripcion" type="text" class="validate">
+                        <label for="apellidos">Descripcion</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="tipoNovedad" type="text" class="validate">
+                        <label for="tipoNovedad">TipoNovedad</label>
+                    </div>
+
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">lock</i>
+                        <input id="autor" type="text" class="validate">
+                        <label for="confirmPass">Autor</label>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <button id="btnRegistrar" class="btn waves-effect waves-light" type="button" name="action">Registrar
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+
+                    
+                    <div class="input-field col s6">
+                        <a href="listarNovedades.html" class="btn waves-effect waves-light" name="action">Regresar<i class="material-icons right">arrow_back</i></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    
+            </form>
+            
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.11/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/funciones2.js"></script>
